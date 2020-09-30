@@ -1,0 +1,120 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+a:hover {
+    text-decoration: none;
+}
+
+#pageContainer{
+    width: 100%;
+    height: 100%;
+    background: #fafafa;
+}
+
+/* headContainer */
+#headContainer{
+    display: flex;
+    width: 100%;
+    height: 56px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 7px 16px;
+    box-sizing: border-box;
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    align-items: center;
+    z-index: 1;
+}
+#headContainer button:not(.searchBtn),
+#headContainer .rightIcons img{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    box-sizing: border-box;
+    border:none;
+    background-color: transparent;
+    outline: none;
+}
+#headContainer .logo{
+    width: 150px;
+}
+#headContainer .logo img{
+    height: 25px;
+    margin-left: 8px;
+}
+#headContainer .rightIcons{
+    height: 100%;
+}
+#headContainer button img{
+    width: 100%;
+}
+#headContainer .searchBar{
+    display: flex;
+    flex: 1;
+    margin: 0 40px;
+}
+#headContainer .searchBar form{
+    display: flex;
+    flex: 1;
+}
+#headContainer .searchBar .search{
+    display: flex;
+    flex: 1;
+    max-width: 600px;
+    color: #111;
+    padding: 2px 6px;
+    font-size: 14px;
+    font-weight: 100;
+    border: 1px solid #ccc;
+    height: 32px;
+    outline: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    box-shadow: #eee 0px 1px 2px 0px inset;
+
+}
+#headContainer .searchBar .searchBtn{
+    height: 32px;
+    background: #f8f8f8;
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+    width: 65px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    outline: none;
+}
+#headContainer .searchBar .searchBtn img{
+    height: 20px;
+    width: 20px;
+}
+
+
+/* sidenavContainer */
+#sidenavContainer{
+    display: flex;
+    width: 240px;
+    background: #f5f5f5;
+    padding-top: 56px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    flex-direction: column;
+}
+
+
+/* mainSectionContainer */
+#mainSectionContainer{
+    padding-top: 56px;
+    display: flex;
+}
+
+#mainContentContainer{
+    padding: 10px 30px;
+}
+#mainSectionContainer.leftPadding{
+    padding-left: 240px;
+}
