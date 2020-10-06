@@ -23,6 +23,7 @@
     
 </head>
 <body>
+<?php require_once("includes/config.php");  ?>
 <div id="pageContainer">
         <div id="headContainer">
             <button class="navShowHide">
@@ -40,7 +41,7 @@
                 </form>
             </div>
             <div class="rightIcons">
-                <a href="">
+                <a href="upload.php">
                 <img class="upload" src="assets/images/icons/upload.png">
                 </a>
                 <a href="">
