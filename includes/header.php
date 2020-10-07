@@ -8,12 +8,13 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="assets/bootstrap/all.css">
-    
+     <!-- Jquery -->
+     <script src="assets/js/jQuery.js"></script>
+     <!-- bs js -->
     <script src="assets/bootstrap/jquery.js"></script>
     <script src='assets/bootstrap/popper.js'></script>
     <script src="assets/bootstrap/bootstrap.js"></script>
-    <!-- Jquery -->
-    <script src="assets/js/jQuery.js"></script>
+   
     <!-- Js scripts -->
     <script src="assets/js/script.js"></script>
     <script src="assets/js/commonActions.js"></script>

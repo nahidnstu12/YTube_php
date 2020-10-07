@@ -1,7 +1,3 @@
-/ uploads
-/ videos
-/ thumbnails
-/*
-/ ffmpeg
-/ windows
-/* 
+uploads
+*.exe
+

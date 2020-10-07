@@ -19,6 +19,9 @@ require_once ("includes/classes/VideoProcessor.php");
     $wasSuccessful = $videoProcessor->upload($videoUploadData);
 
     // 3) check it if successful
+    if($wasSuccessful){
+        echo "Upload successful";
+    }
 
 ?>
 
