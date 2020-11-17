@@ -1,5 +1,5 @@
 <?php 
-require_once("includes/header.php");
+require_once("includes/Navbar.php");
 require_once("includes/classes/VideoDetailsFormProvider.php");
 // require_once ("processing.php");
 ?>

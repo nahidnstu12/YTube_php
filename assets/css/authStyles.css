@@ -1,0 +1,98 @@
+.form-column {
+    /* flex-grow: 1; */
+    background-color: #fff;
+    min-height: 300px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px;
+}
+
+.signInContainer {
+    background-color: #efefee;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signInContainer .form-column .header img {
+    width: 100px;
+}
+
+.signInContainer .form-column {
+    flex-grow: 0;
+    width: 450px;
+    padding: 20px 35px;
+    max-height: 100%;
+    overflow-y: auto;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.signInContainer .form-column .header {
+    padding: 20px 0;
+}
+
+.signInContainer .form-column .header h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+    padding-bottom: 0;
+    padding-top: 16px;
+    font-family: sans-serif;
+}
+
+.signInContainer .form-column .header span {
+    font-size: 14px;
+}
+
+.signInContainer .form-column .loginForm {
+    padding-top: 24px;
+}
+
+.signInContainer .form-column form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signInContainer .form-column form input[type="text"],
+.signInContainer .form-column form input[type="email"],
+.signInContainer .form-column form input[type="password"] {
+    font-size: 14px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #dedede;
+    outline: none;
+    padding: 5px 0;
+}
+/* .signInContainer .form-column form input[type="text"]:focus-visible{
+    
+} */
+
+.signInContainer .form-column form input[type="submit"] {
+    background: #4285f4;
+    color: #fff;
+    height: 36px;
+    width: 88px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.signInMessage {
+    font-size: 14px;
+    font-weight: 400;
+    color: #212529;
+    font-family: 'sans-serif';
+}
+
+.errorMessage {
+    color: #f00;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
